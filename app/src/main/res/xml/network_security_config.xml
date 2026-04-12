@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+
+    <!-- Allow local Home Assistant webhook addresses per ADR-006. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">homeassistant.local</domain>
+        <domain includeSubdomains="true">local</domain>
+    </domain-config>
+</network-security-config>
