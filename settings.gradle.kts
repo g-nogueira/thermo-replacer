@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "thermo-replacer"
+rootProject.name = "genial-t31-bridge"
 include(":app")
